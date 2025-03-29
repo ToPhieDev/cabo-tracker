@@ -17,9 +17,9 @@ export default function PlayersPage() {
 
   return (
     <DefaultLayout>
-      <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-        <div className="inline-block max-w-lg text-center justify-center">
-          <Form className="w-full max-w-xs" onSubmit={onSubmit}>
+      <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 w-full">
+        <div className="inline-block max-w-lg text-center justify-center w-full">
+          <Form className="w-full" onSubmit={onSubmit}>
             <Input
               label="Spieler 1"
               name="player1"
