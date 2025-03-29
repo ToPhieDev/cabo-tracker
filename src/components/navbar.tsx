@@ -4,7 +4,6 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  NavbarMenuToggle,
 } from "@heroui/navbar";
 
 import { ThemeSwitch } from "@/components/theme-switch";
@@ -21,7 +20,7 @@ export const Navbar = () => {
             href="/"
           >
             <Logo />
-            <p className="font-bold text-inherit">ACME</p>
+            <p className="font-bold text-inherit">Punkt-o-Cabo</p>
           </Link>
         </NavbarBrand>
       </NavbarContent>
@@ -37,7 +36,6 @@ export const Navbar = () => {
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
         <ThemeSwitch />
-        <NavbarMenuToggle />
       </NavbarContent>
     </HeroUINavbar>
   );
